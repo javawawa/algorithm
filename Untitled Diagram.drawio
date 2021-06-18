@@ -1,1 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T06:56:42.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.7.8" etag="0XewdqS2_B7zOTt7XiIh" type="github"><diagram id="sIP-8R-zjdSHhYS4t6Vo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-18T09:35:16.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="hzgrMdexY0UgQGH0a2z0" version="14.7.8" type="github">
+  <diagram id="sIP-8R-zjdSHhYS4t6Vo" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="605" width="300" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-2" value="线程共享" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Lucida Console;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1025" y="560" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="955" y="655" width="250" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=17;" edge="1" parent="1" source="OUh5aSzOhwYaPVgLUacE-4" target="OUh5aSzOhwYaPVgLUacE-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-4" value="方法区1.8使用元数据区代替" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="965" y="665" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=17;entryX=0.985;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OUh5aSzOhwYaPVgLUacE-5" target="OUh5aSzOhwYaPVgLUacE-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="855" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="965" y="765" width="80" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1046.25" y="765" width="138.75" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-7" value="运行时常量池1.7之前在堆中" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="977.5" y="980" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="605" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-9" value="线程私有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Lucida Console;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1425" y="560" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=17;" edge="1" parent="1" source="OUh5aSzOhwYaPVgLUacE-10" target="OUh5aSzOhwYaPVgLUacE-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-10" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="635" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=17;" edge="1" parent="1" source="OUh5aSzOhwYaPVgLUacE-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1705" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-11" value="虚拟机栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="715" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontSize=17;" edge="1" parent="1" source="OUh5aSzOhwYaPVgLUacE-12" target="OUh5aSzOhwYaPVgLUacE-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-12" value="本地方法栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="855" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-13" value="局部变量表" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="735" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-21" value="&lt;b&gt;垃圾回收&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=17;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="845" y="1065" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=17;" edge="1" parent="1" source="OUh5aSzOhwYaPVgLUacE-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-23" value="可达性分析(标记算法)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="825" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-24" value="垃圾清理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="775" y="1220" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-25" value="清理(会存在内存不连续的问题)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-26" value="压缩(标记整理)当存活的对象多时，整理的效率低" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="732.5" y="1330" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-27" value="复制(简单高效)浪费内存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="912.5" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=17;" edge="1" parent="1" source="OUh5aSzOhwYaPVgLUacE-28" target="OUh5aSzOhwYaPVgLUacE-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-28" value="分代回收" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1067.5" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-30" value="&lt;p style=&quot;box-sizing: border-box ; line-height: inherit ; margin: 0.8em 0px ; width: inherit ; position: relative ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;freesans&amp;#34; , &amp;#34;arimo&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;hiragino sans gb w3&amp;#34; , &amp;#34;fontawesome&amp;#34; , sans-serif ; font-size: 16.8px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;box-sizing: border-box&quot;&gt;将 Java 堆分为了新生代和老年代。由于新生代中存活对象较少，所以采用&lt;/span&gt;&lt;strong style=&quot;box-sizing: border-box&quot;&gt;复制算法&lt;/strong&gt;&lt;span style=&quot;box-sizing: border-box&quot;&gt;，简单高效。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box ; line-height: inherit ; margin: 0.8em 0px ; width: inherit ; position: relative ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;freesans&amp;#34; , &amp;#34;arimo&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;hiragino sans gb w3&amp;#34; , &amp;#34;fontawesome&amp;#34; , sans-serif ; font-size: 16.8px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;box-sizing: border-box&quot;&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box&quot;&gt;而老年代中对象较多，并且没有可以担保的内存区域，所以一般采用&lt;/span&gt;&lt;strong style=&quot;box-sizing: border-box&quot;&gt;标记清除或者是标记整理算法&lt;/strong&gt;&lt;span style=&quot;box-sizing: border-box&quot;&gt;。&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1187.5" y="1160" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-31" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;quot;segoe ui&amp;quot; , &amp;quot;lucida grande&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;freesans&amp;quot; , &amp;quot;arimo&amp;quot; , &amp;quot;droid sans&amp;quot; , &amp;quot;wenquanyi micro hei&amp;quot; , &amp;quot;hiragino sans gb&amp;quot; , &amp;quot;hiragino sans gb w3&amp;quot; , &amp;quot;fontawesome&amp;quot; , sans-serif ; font-size: 16.8px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Java 虚拟机栈的内存大小是否允许动态扩展&lt;/span&gt;&lt;br style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;quot;segoe ui&amp;quot; , &amp;quot;lucida grande&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;freesans&amp;quot; , &amp;quot;arimo&amp;quot; , &amp;quot;droid sans&amp;quot; , &amp;quot;wenquanyi micro hei&amp;quot; , &amp;quot;hiragino sans gb&amp;quot; , &amp;quot;hiragino sans gb w3&amp;quot; , &amp;quot;fontawesome&amp;quot; , sans-serif ; font-size: 16.8px&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;quot;segoe ui&amp;quot; , &amp;quot;lucida grande&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;freesans&amp;quot; , &amp;quot;arimo&amp;quot; , &amp;quot;droid sans&amp;quot; , &amp;quot;wenquanyi micro hei&amp;quot; , &amp;quot;hiragino sans gb&amp;quot; , &amp;quot;hiragino sans gb w3&amp;quot; , &amp;quot;fontawesome&amp;quot; , sans-serif ; font-size: 16.8px ; background-color: rgb(255 , 255 , 255)&quot;&gt;是:&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;lucida console&amp;quot;&quot;&gt;当线程请求栈的深度超过栈的最大深度，&lt;/span&gt;&lt;br style=&quot;font-family: &amp;quot;lucida console&amp;quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;lucida console&amp;quot;&quot;&gt;抛出&lt;/span&gt;&lt;strong style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;quot;segoe ui&amp;quot; , &amp;quot;lucida grande&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;freesans&amp;quot; , &amp;quot;arimo&amp;quot; , &amp;quot;droid sans&amp;quot; , &amp;quot;wenquanyi micro hei&amp;quot; , &amp;quot;hiragino sans gb&amp;quot; , &amp;quot;hiragino sans gb w3&amp;quot; , &amp;quot;fontawesome&amp;quot; , sans-serif ; font-size: 16.8px ; box-sizing: border-box ; margin-top: 0px&quot;&gt;StackOverFlowError&lt;br&gt;&lt;/strong&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;quot;segoe ui&amp;quot; , &amp;quot;lucida grande&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;freesans&amp;quot; , &amp;quot;arimo&amp;quot; , &amp;quot;droid sans&amp;quot; , &amp;quot;wenquanyi micro hei&amp;quot; , &amp;quot;hiragino sans gb&amp;quot; , &amp;quot;hiragino sans gb w3&amp;quot; , &amp;quot;fontawesome&amp;quot; , sans-serif ; font-size: 16.8px ; background-color: rgb(255 , 255 , 255)&quot;&gt;否:&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;lucida console&amp;quot;&quot;&gt;当虚拟机栈的内存占用满，&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;lucida console&amp;quot;&quot;&gt;抛出&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;quot;segoe ui&amp;quot; , &amp;quot;lucida grande&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;freesans&amp;quot; , &amp;quot;arimo&amp;quot; , &amp;quot;droid sans&amp;quot; , &amp;quot;wenquanyi micro hei&amp;quot; , &amp;quot;hiragino sans gb&amp;quot; , &amp;quot;hiragino sans gb w3&amp;quot; , &amp;quot;fontawesome&amp;quot; , sans-serif ; font-size: 16.8px&quot;&gt;OutOfMemoryError&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1705" y="707.5" width="410" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-33" value="&lt;strong style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;freesans&amp;#34; , &amp;#34;arimo&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;hiragino sans gb w3&amp;#34; , &amp;#34;fontawesome&amp;#34; , sans-serif ; font-size: 16.8px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;box-sizing: border-box&quot;&gt;虚拟机使用到的 Native 方法服务&lt;/span&gt;&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1705" y="854" width="330" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-35" value="&lt;span style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;freesans&amp;#34; , &amp;#34;arimo&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;hiragino sans gb w3&amp;#34; , &amp;#34;fontawesome&amp;#34; , sans-serif ; font-size: 16.8px ; font-style: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;box-sizing: border-box&quot;&gt;字节码解释器工作时通过改变这个计数器的值来选取下一条需要执行的字节码指令，分支、循环、跳转、异常处理、线程恢复等功能。&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="570" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-37" value="&lt;span style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;freesans&amp;#34; , &amp;#34;arimo&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;hiragino sans gb w3&amp;#34; , &amp;#34;fontawesome&amp;#34; , sans-serif ; font-size: 16.8px ; background-color: rgb(255 , 255 , 255)&quot;&gt;它用于存储已被虚拟机加载的类信息、常量、静态变量、即时编译器编译后的代码等数据。这块区域也被称为&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box ; font-family: monospace , serif ; border: 1px solid rgb(231 , 234 , 237) ; background-color: rgb(243 , 244 , 244) ; border-radius: 3px ; padding: 0px 2px ; font-size: 16.8px ; color: rgb(51 , 51 , 51)&quot;&gt;永久代&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="585" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-40" value="堆" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=17;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="735" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-41" value="&lt;span&gt;新生代&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=17;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="975" y="780" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-42" value="&lt;span&gt;老年代&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=17;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1080.63" y="780" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-43" value="新生代与老年代的比例为1:2，可通过&lt;code style=&quot;box-sizing: border-box ; font-family: monospace , serif ; border: 1px solid rgb(231 , 234 , 237) ; background-color: rgb(243 , 244 , 244) ; border-radius: 3px ; padding: 0px 2px ; font-size: 16.8px ; color: rgb(51 , 51 , 51)&quot;&gt;-XX:NewRatio=2&lt;/code&gt;&lt;span style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;freesans&amp;#34; , &amp;#34;arimo&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;hiragino sans gb w3&amp;#34; , &amp;#34;fontawesome&amp;#34; , sans-serif ; font-size: 16.8px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;设置&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="596.25" y="750" width="252.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUh5aSzOhwYaPVgLUacE-46" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;lucida grande&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;freesans&amp;#34; , &amp;#34;arimo&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;hiragino sans gb w3&amp;#34; , &amp;#34;fontawesome&amp;#34; , sans-serif ; font-size: 16.8px ; background-color: rgb(255 , 255 , 255)&quot;&gt;其原理简单来说，就是将对象及其引用关系看作一个图，选定活动的对象作为 GC Roots，然后跟踪引用链条，如果一个对象和 GC Roots 之间不可达，也就是不存在引用链条，那么即可认为是可回收对象。JVM 会把虚拟机栈和本地方法栈中正在引用的对象、静态属性引用的对象和常量，作为 GC Roots&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=17;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1040" width="392.5" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
